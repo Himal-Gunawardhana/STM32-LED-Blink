@@ -33,7 +33,7 @@ int main(void)
 
 	while (1) {
 		gpio_toggle(LEDPORT, LEDPIN); // Toggle LED
-		delay_ms(1000);               // 100 ms delay
+		delay_ms(6);               // 100 ms delay
 	}
 
 	return 0;
