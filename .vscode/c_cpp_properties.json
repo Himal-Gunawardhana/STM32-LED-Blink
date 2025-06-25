@@ -1,0 +1,43 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/Users/himalgunawardhana/Documents/PlatformIO/Projects/250625-171145-libopencm3-blink/include",
+                "/Users/himalgunawardhana/Documents/PlatformIO/Projects/250625-171145-libopencm3-blink/src",
+                "/Users/himalgunawardhana/.platformio/packages/framework-libopencm3",
+                "/Users/himalgunawardhana/.platformio/packages/framework-libopencm3/include",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/Users/himalgunawardhana/Documents/PlatformIO/Projects/250625-171145-libopencm3-blink/include",
+                    "/Users/himalgunawardhana/Documents/PlatformIO/Projects/250625-171145-libopencm3-blink/src",
+                    "/Users/himalgunawardhana/.platformio/packages/framework-libopencm3",
+                    "/Users/himalgunawardhana/.platformio/packages/framework-libopencm3/include",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60118",
+                "STM32F1",
+                "STM32F103xB",
+                "F_CPU=72000000L",
+                ""
+            ],
+            "compilerPath": "/Users/himalgunawardhana/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc",
+            "compilerArgs": [
+                "-mthumb",
+                "-mcpu=cortex-m3",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
